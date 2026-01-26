@@ -15,6 +15,7 @@ pip install transformers
 pip install peft
 pip install trl
 pip install bitsandbytes
+pip install sacrebleu
 ```
 
 Next, after the activation of ```tofu``` environment, we recommend installing our code as a package. To do this, run the following.
@@ -29,7 +30,7 @@ pip install -e .
 |  **Base** | **Pythia Family** | Pythia-12B |
 |  | **Mistral Family** | Mistral-Nemo-Base-2407 |
 |  | **OLMo Family** | OLMo-2-1124-13B |
-|  **Aligned** | **LLaMA Family** | Llama-3.1-8B<br>Meta-Llama-3-8B |
+|  **Aligned** | **LLaMA Family** | Llama-3.1-8B |
 |  | **Qwen Family** | Qwen-3-8B |
 |  | **Phi Family** | Phi-4 |
 |  **Judge** | **Judge Family** | Meta-Llama-3-70B-Instruct |
